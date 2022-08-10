@@ -1,0 +1,635 @@
+/*tipografia*/
+.tipografia{   
+    font-style: normal;
+}
+
+.tamanoBicicleta{
+    object-fit: cover;
+    width: 100%;
+    height: 500px;
+}
+#bNavegacion{
+    color: whitesmoke;
+}
+Footer{
+    color:whitesmoke;
+}
+.img-envios-footer{
+    width: 60%;
+}
+.redes-img-footer{
+    width: 40%;
+}
+/* Estilos botones enlaces */ 
+.btnStyles{
+    text-decoration: none;
+    color: black;
+}
+
+#hoverBtn:hover{
+    color: white;
+}
+
+/*Carrito*/ 
+.total-text p{
+	display: inline;
+}
+#cart-items{
+	position: absolute;
+	right: 20px;
+	top: 10%;
+	background-color: white;
+	margin-top: 50px;
+	padding: 50px 40px;
+	z-index: 999;
+    display: none;
+    width: fit-content;
+}
+
+#cart-items{
+    color: black;
+}
+.shopping-cart-image{
+    width: 20%; 
+}
+ul{
+    list-style: none;
+}
+.toast-header{
+    background-color: black;
+    color: white;
+}
+
+.buttonDelete{
+    width: 40%;
+    height: 50%;
+}
+.marginCartIcon{
+    margin-right: 0.25rem;
+}
+
+/*Buscador*/
+#search-item{
+	position: absolute;
+	left: 0;
+    width: 100%;
+	top: 10%;
+	background-color: white;
+	margin-top: 50px;
+	padding: 10px 40px;
+    /*Modificacion para que aparezca por debajo el buscador*/
+	z-index: -1;
+    display: none;
+}
+
+/*Modificacion para que aparezca por debajo el buscador*/
+.indexPositionNavBar{
+    z-index: 999;
+}
+
+#search-item{
+    color: black;
+}
+.modelo-buscador{
+    margin-bottom: 0px;
+}
+
+.productoNoEncontrado-buscador{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+/*tooltip para "Mi Cuenta"*/
+
+.miCuenta{
+	position: absolute;
+	right: 235px;
+	top: 10%;
+	background-color: white;
+    border-top: 10px solid rgb(92, 92, 92);
+	margin-top: 55px;
+	padding: 50px 40px;
+	z-index: 999;
+    display: none;
+}
+
+.miCuenta{
+    color: black;
+}
+
+.miCuenta::after{
+    content: "";
+    display: block;
+    border-bottom: 10px solid rgb(92, 92, 92);
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    position: absolute;
+    bottom: 200px;
+    left: 229px;
+}
+
+/*modifica el after desde JS*/
+.miCuenta.special:after { 
+    content: "";
+    display: block;
+    border-bottom: 10px solid rgb(92, 92, 92);
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    position: absolute;
+    bottom: 214px;
+    left: 198px; 
+}
+
+/*cuenta*/
+
+
+.mainColorCuenta{
+    background-color: black;
+    color: white;
+}
+
+/****input contraseña****/
+
+.icon-eye{
+	position: relative;
+	width: 271px;
+}
+.input-icon {
+	color: black;
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	left: 200%;
+	top: 50%;
+	transform: translateY(-274%);
+}
+
+/***modal form e input***/
+.modal{
+    color: black;
+}
+
+/***login***/
+.loginModel{
+    padding: 150px 0px;
+}
+
+/*****carrito*****/
+
+.bordesCart{
+    border: solid 0.5px grey;
+    border-radius: 0.5rem;   
+}
+
+.imgCart{
+    width: 100%;
+}
+.bordesCart .pageCartTitles{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+
+.orderCart{
+    border: solid 0.5px grey;
+    border-radius: 0.5rem;
+    position: sticky;
+    top: 10px;
+}
+
+#modal-without-bottom{
+    border-bottom: 0px;
+}
+/**boton eliminar item en pagina carrito****/
+
+#trashSize{
+    width: 25px;  
+}
+
+#bordesQuantity{
+    border-radius: 0.2rem;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+.positionPriceQuantity{
+    margin-left: 0px;
+}
+
+.badgeCarrito{
+    padding: 0.35em 1.25em;
+}
+
+.precioFinal{
+    text-align: right;
+}
+
+.emptyCartCart{
+    height: 500px;
+}
+.emptyCartCart a{
+    text-decoration: underline;
+}
+.emptyCartCart a:hover{
+    text-decoration: none;
+    color: grey;
+}
+.btnSecundary{
+    border-color: black;
+    color: black;
+}
+.btnSecundary:hover{
+    border-color: black;
+    background-color: white;
+    color: black;
+}
+
+.modal-backdrop{
+    position: unset;
+    background-color: aquamarine;
+}
+.modal-backdrop.show{
+    opacity: 60%;
+}
+
+.btnMetodoPago button{
+    text-align: left;
+}
+.overflow-auto{
+    max-height: 500px;
+}
+
+footer ul{
+    font-size: 90%;
+}
+footer ul li {
+    color: rgb(209, 205, 205);
+    line-height: 192%;
+}
+footer ul h6{
+    color: rgb(209, 205, 205);
+}
+.subFooter ul p{
+    color: rgb(209, 205, 205);
+    font-size: 104%;
+}
+
+.img-mediosdepago-footer{
+    width: 50%;
+}
+.logoNameBrand{
+    font-family: "monoton";
+}
+@font-face {
+    font-family: "monoton";
+    src: url(/assets/tipografia/Monoton-Regular.ttf);
+}
+
+.copywrightText{
+    font-size: 90%;
+}
+
+
+@media (min-width: 992px) {
+    .mobile-carrito{
+        display: none;
+    }
+}
+@media (max-width: 991px) {
+    .media-carrito{
+        display: none;
+    }
+}
+
+@media (max-width: 991px) {
+    
+   .barraNavSecundaria2{
+    padding: 0rem 0rem;
+   }
+   .barraNav-posicionMedia{
+        padding-left: 1.5rem;
+   }
+}
+
+@media (max-width: 768px) {
+    .media-carrito{
+        display: none;
+    }
+    
+    #search-item{
+        top: 54%;
+    }
+    .img-envios-footer{
+        width: 40%;
+    }
+    .footer-lista-margenes{
+        padding-top: 1.1rem;
+        padding-bottom: 1.1rem;
+    }
+}
+
+#hijo1{
+    grid-area: area1;
+}
+#hijo2{
+    grid-area: area2;
+}
+#hijo3{
+    grid-area: area3;
+}
+#hijo4{
+    grid-area: area4;
+}
+#hijo5{
+    grid-area: area5;
+}
+
+@media (min-width: 1400px) {
+    #padre{
+        grid-template-columns: 58% 25% auto auto;  
+    }
+}
+@media only screen and (max-width: 1400px) and (min-width: 1200px)  {
+    #padre{
+        grid-template-columns: 55% 25% auto auto;  
+    }
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 992px)  {
+    #padre{
+    grid-template-columns: 51% 25% auto auto;  
+    }
+}
+
+@media (min-width: 992px) {
+    #padre{
+        display: grid;
+        grid-template-areas: " area2 area3 area4 area5";
+                            
+    }
+    .input-media{
+        width: 100%;
+    }
+    #hijo3{
+        padding-right: 0.5rem;
+    }
+    #hijo4{
+        width: max-content; 
+        margin-right: 0.5rem;
+    }
+    #hijo5{
+        width: max-content;
+    }
+    #search-item{
+        padding: 20px 100px;
+    }
+}
+
+
+@media (max-width: 991px) {
+    #padre{
+        display: grid;
+        grid-template-areas: "area1 area2 area4 area5" 
+                             "area3 area3 area3 area3";                       
+    }
+    .input-media{
+        width: 100%;
+    }
+    #hijo3{
+        margin-top: 0.6rem;
+        margin-right: 0px;
+    }
+    #hijo2{
+       margin-right: 0px;
+    }
+    #hijo4{
+        width: max-content;
+        
+    }
+    #hijo5{
+        width: max-content;
+       
+    }
+   
+}
+
+@media only screen and (max-width: 991px) and (min-width: 768px)  {
+    #padre{
+        grid-template-columns: auto 60% auto auto ;
+    }
+    #search-item{
+        padding: 10px 120px;
+    }
+    .img-mediosdepago-footer{
+        width: 80%;
+    }
+    .img-envios-footer{
+        width: 100%;
+    }
+    
+}
+
+@media (max-width: 991px) {
+    #search-item{
+        top: 49%;
+    }
+    #cart-items{
+        top: 5%;
+    }
+}
+
+@media only screen and (max-width: 767px) and (min-width: 578px)  {
+    #padre{
+        grid-template-columns: auto 45% auto auto ;
+    }
+   
+}
+
+@media (max-width: 400px) {
+    #hijo2{
+        font-size: 80%;
+    }
+    .marginCartIcon{
+        margin-right: 0rem;
+    } 
+      
+}
+@media (max-width: 578px) {
+    #close-button p{
+        font-size: 60%;
+    }
+    #close-button h6{
+        font-size: 80%;
+    }
+    
+    #cart-items{
+        font-size: small;
+        padding: 50px 25px;
+        right: 0%;
+    }
+    #cart-items h6{
+        font-size: small;
+    }
+    #cart-items .btnSuma{
+        font-size: xx-small ;
+    }
+    #cart-items .btnResta{
+        font-size: xx-small ;
+    }
+    .idBycicle button{
+        font-size: xx-small;
+    }
+   
+}
+
+@media (max-width: 380px) {
+    #close-button p{
+        font-size: 50%;
+    }
+    #close-button h6{
+        font-size: 50%;
+    }
+    .border-bottom{
+        padding: unset;
+    }
+}
+
+
+@media (min-width: 576px) {
+    .resultados-busquedas{
+        padding-left: 2%;
+    }
+}
+@media (max-width: 575px) {
+    #seleccionColor{
+        margin: 0.5rem 0rem;
+    }
+    .pageCartTitles{
+        padding-bottom: 2rem;
+    }
+}
+@media only screen and (max-width: 900px) and (min-width: 700px){
+    .miCuenta{
+    right: 213px;
+    }
+}
+
+@media only screen and (max-width: 700px) and (min-width: 576px){
+    .miCuenta{
+    right: 153px;
+    }
+    #search-item{
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width: 576px) and (min-width: 404px){
+    .miCuenta{
+        right: 120px;
+        }
+        #search-item{
+        padding: 10px 30px;
+    }
+}
+@media (max-width: 480px) {
+    .pageCartTitles{
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    .search-button{
+        font-size: 0.75rem;
+    }
+    .comprarButton{
+        font-size: 0.75rem;
+    }
+    
+}
+@media (max-width: 404px) {
+    .toast{
+        width: 238px;
+    }
+}
+@media (max-width: 404px) {
+    .miCuenta{
+        right: 26px;
+        }
+    .miCuenta::after{
+        left: 173px;
+    }
+    #search-item{
+        padding: 10px 10px;
+    }
+    
+}
+
+@media only screen and (max-width: 775px) and (min-width: 555px){
+    .input-icon{
+        left: 150%;
+    }
+}
+@media only screen and (max-width: 555px) and (min-width: 500px){
+    .input-icon{
+        left: 135%;
+    }
+}
+@media only screen and (max-width: 500px) and (min-width: 449px){
+    .input-icon{
+        left: 116%;
+    }
+}
+@media only screen and (max-width: 449px) and (min-width: 385px){
+    .input-icon{
+        left: 100%;
+    }
+}
+@media (max-width: 385px) {
+    .input-icon{
+        left: 85%;
+    }
+}
+.overflow-auto{
+    width: 100%;
+}
+.resultados-busquedas{
+    --bs-gutter-x: 0rem;
+}
+.shopping-cart-price{
+    font-style: normal;
+}
+.comprarButton{
+    font-style: normal;
+}
+
+a{
+    text-decoration: none;
+    color: unset;
+}
+a:hover{
+    color: unset;
+}
+.irALogin{
+    color: white;
+    text-decoration: underline;
+}
+.irALogin:hover{
+    text-decoration: none;
+    color: grey;
+}
+.paddingLogin{
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+}
+
+#accordionPanelsStayOpenExample li:hover{
+    text-decoration: underline;
+}
+.hoverCategorias-footer li:hover{
+    text-decoration: underline;
+}
+
+.modal-header{
+    border-bottom: none;
+}
+.modal-footer{
+    border-top: none;
+}

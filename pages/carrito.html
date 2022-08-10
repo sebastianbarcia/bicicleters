@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Bicicleters</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="../../assets/favicon.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="../css/styles.css" rel="stylesheet" />
+        <!--link a css-->
+        <link href="../css/style.css" rel="stylesheet" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    </head>
+    <body>
+        <header>
+            <!-- Navigation-->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light indexPositionNavBar">
+                <div class="container px-4 px-lg-5" id="padre">
+                    <button class="navbar-toggler" id="hijo1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <a class="navbar-brand logoNameBrand" id="hijo2" href="/index.html">Bicicleters</a>                
+                    <form class="d-flex form-media" id="hijo3" autocomplete="off">
+                        <div class="d-flex input-media">
+                            <input class="form-control search desktop-buscador" id="buscador" type="text" placeholder="Buscar" aria-label="Search">
+                            <div id="search-item">                                
+                                <!--Contenedor que aparece como resultado del buscador -->
+                                <div id="close-button" class="overflow-auto">
+                                <!--Contenedor para cerrar contenedor de resultados --> 
+                                </div>
+                                <div class="d-flex justify-content-center align-items-center">
+                                    <button class="search-button btn btn-dark col-lg-2 col-md-6 col-12">Cerrar</button>
+                                </div>                                
+                            </div>
+                        </div>
+                    </form>
+                    <div id="hijo4">
+                        <button type="button" class="btn btn-outline-dark btnMiCuenta"><span class="media-carrito">Mi cuenta</span> <i class="bi bi-person-fill mobile-carrito"></i></button>
+                        <div  class="row miCuenta">
+                        <!--Contenedor para acceso usuario o registro-->                                
+                        </div>
+                    </div>
+                    <div id="hijo5">                        
+                        <button class="btn btn-outline-dark cart cart2" type="submit"> <!--comprobar clase cart2 (pareceria que no sirve)-->
+                        <i class="marginCartIcon">
+                        <div id="cart-items"  class="overflow-auto">
+                            <ol id="list-item">
+                            </ol> 
+                            <div>
+                                <div id="cartEmpty">                                       
+                                            
+                                </div>    
+                            </div>                       
+                        </div>
+                        </i> <a href="" class="btnStyles" id="hoverBtn">
+                        <span class="media-carrito">Carrito</span> 
+                        <span class="badge bg-dark text-white ms-1 rounded-pill" id="items-basket"></span></a>    <!-- add to cart-->                                
+                        </button>
+                    </div>
+                </div>
+            </nav>
+            <nav class="navbar navbar-expand-lg navbar-light bg-dark barraNavSecundaria2">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="container barraNav-posicionMedia"> 
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4 justify-content-between">
+                        <li class="nav-item"><a class="nav-link active" id="bNavegacion" aria-current="page" href="/pages/typesbikes.html#/MTB">MTB</a></li>
+                        <li class="nav-item"><a class="nav-link active" id="bNavegacion" aria-current="page" href="/pages/typesbikes.html#/Carretera">Carretera</a></li>
+                        <li class="nav-item"><a class="nav-link active" id="bNavegacion" aria-current="page" href="/pages/typesbikes.html#/Urbanas">Urbanas</a></li>
+                        <li class="nav-item"><a class="nav-link active" id="bNavegacion" aria-current="page" href="/pages/typesbikes.html#/Infantil">Infantil</a></li>
+                        <li class="nav-item"><a class="nav-link active" id="bNavegacion" aria-current="page" href="/pages/typesbikes.html#/E-Bikes">E-bikes</a></li>
+                        <li class="nav-item"><a class="nav-link active" id="bNavegacion" aria-current="page" href="/pages/typesbikes.html#/Accesorios">Accesorios</a></li>
+                        <li class="nav-item"><a class="nav-link active" id="bNavegacion" aria-current="page" href="/pages/typesbikes.html#/ropa*y*calzado">Ropa y calzado</a></li>
+                        <li class="nav-item"><a class="nav-link active" id="bNavegacion" aria-current="page" href="/pages/typesbikes.html#/Equipamiento">Equipamiento</a></li>
+
+                    </ul>
+                    </div>
+                </div>
+            </nav>
+            </header>
+            <main>
+                <section class="pt-4 pb-sm-5 bg-light">
+                    <div class="container pt-2 pb-4 px-lg-5">
+                        <h2 class="fw-bolder mb-3">Carrito</h2>
+                        <div class="row justify-content-around gx-lg-5 ">
+                            <div class="row pb-4 justify-content-around my-4 contenedorCart" id="contenedor">    
+                            <!--Agregamos todos los productos elegidos a la pagina del carrito y agregamos contenedor para los calculos de compra -->   
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>  
+            <!--modal checkout-->  
+            <div class="modal fade modalCheckout" id="my-Modal-checkout" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header d-flex justify-content-center">
+                      <h5 class="modal-title" id="staticBackdropLabel">¡Pago exitoso!</h5>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <img width="10%" src="/assets/icons8-ok.svg"></img>
+                    </div>
+                    <div class="modal-body textModalCheckOut d-flex justify-content-center"></div>
+                    <div class="modal-body d-flex justify-content-center"> <p style="text-align:center">En pocos minutos tu pedido saldrá de nuestros almacenes para llegar a la dirección que nos proporcionastes</p> </div>
+                    <div class="modal-footer d-flex justify-content-center">
+                      <button type="button" class="btn btn-dark" id="btnCheckOut" data-bs-dismiss="modal" href="../index.html">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer-->
+        <footer class="py-5 bg-dark">
+            <div class="container px-4 px-lg-5">
+                <nav class="row">
+                    <ul class="col-12 col-md-6 col-lg-3">
+                        <h6>Contacto</h6> 
+                        <li><i class="bi bi-envelope-fill me-2"></i>bicicleters@bicicleters.es</li>
+                        <li><i class="bi bi-telephone-fill me-2"></i>+34 901967908</li>
+                        <li><i class="bi bi-geo-alt-fill me-2"></i>Calle de Narvaez 26, Madrid, España</li>
+                    </ul> 
+                    <ul class="col-6 col-md-3 footer-lista-margenes">
+                        <h6>Servicios</h6>
+                        <div class="accordion" id="accordionPanelsStayOpenExample">
+                            <div>
+                            <li
+                            class="collapsed"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseOne"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseOne">
+                            Envios
+                            </li>
+                            <div
+                            id="panelsStayOpen-collapseOne"
+                            class="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingOne">
+                            <div class="border-top pt-2 pb-1">
+                            Envios gratis a toda españa a partir de 49€ en peninsula y 300€ para las islas baleares y canarias.<br> 
+                            Si el pedido es menor a 49€ en peninsula el coste será de 5€.<br> 
+                            En islas pedidos menores a 300€ el coste será de 12€.  
+                            </div>
+                                </div>
+                                    </div>
+                                    <div>
+                                    <li
+                                    class=" collapsed"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseTwo"
+                                    aria-expanded="false"
+                                    aria-controls="panelsStayOpen-collapseTwo">
+                                    Devoluciones
+                                    </li>
+                                    <div
+                                    id="panelsStayOpen-collapseTwo"
+                                    class="accordion-collapse collapse"
+                                    aria-labelledby="panelsStayOpen-headingTwo">
+                                    <div class="border-top pt-2 pb-1">
+                                    Si no estás conforme con tu pedido el plazo de devolucion es de 30 dias naturales desde la fecha de entrega del pedido.<br> 
+                                    Una vez recibamos tu pedido podremos efectuarte la devolución del importe que has pagado.
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                            <li
+                            class=" collapsed"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseThree"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseThree">
+                            Financiación
+                            </li>
+                            <div
+                            id="panelsStayOpen-collapseThree"
+                            class="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingThree">
+                            <div class="border-top pt-2 pb-1">
+                            Podemos financiarte tu pedido en 3, 6, 12 y 24 cuotas.<br>
+                            El interés se adecúa al numero de cuotas: <br>
+                            3 cuotas: 1% de interés.<br>
+                            6 cuotas: 3% de interés.<br>
+                            12 cuotas: 6% de interés.<br>
+                            24 cuotas: 9% de interés. 
+                            </div>
+                        </div>
+                        <div>
+                            <li
+                            class="collapsed"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseFour"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseFour">
+                            Recogida en tienda
+                            </li>
+                            
+                            <div
+                            id="panelsStayOpen-collapseFour"
+                            class="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingFour">
+                            <div class="border-top pt-2 pb-1">
+                            No existe la posibilidad de comprar y recoger en tienda.<br>
+                            Pero si quieres puedes venir a nuestra tienda y comprar directamente el producto que desees. 
+                            </div>
+                        </div>
+                    </ul>  
+                    <ul class="col-6 col-md-3 footer-lista-margenes hoverCategorias-footer">
+                        <h6>Productos</h6> 
+                        <li><a href="/pages/typesbikes.html#/MTB">MTB</a></li>
+                        <li><a href="/pages/typesbikes.html#/Carretera">Carretera</a></li>
+                        <li><a href="/pages/typesbikes.html#/Urbanas">Urbana</a></li>
+                        <li><a href="/pages/typesbikes.html#/Infantil">Infantil</a></li>
+                        <li><a href="/pages/typesbikes.html#/E-Bikes">E-bikes</a></li>
+                        <li><a href="/pages/typesbikes.html#/Accesorios">Accesorios</a></li>
+                        <li><a href="/pages/typesbikes.html#/ropa*y*calzado">Ropa y calzado</a></li>
+                        <li><a href="/pages/typesbikes.html#/Equipamiento">Equipamiento</a></li>
+                    </ul> 
+                    <ul class="col-12 col-lg-3 ">
+                        <h6>Newsletter</h6> 
+                        <li class="mb-2">Recibe todas nuestras novedades</li>
+                        <form method="post" action="/php/formnewsletter.php">
+                            <input type="email" class="form-control form-control-sm mail" placeholder="Escribe tu mail">
+                        </form>
+                    </ul>
+                </nav>
+                <div class="h4 pb-2 mb-4 text-danger border-bottom border-light mt-4"></div>
+                <div class="row subFooter justify-content-between mb-3">
+                    <ul class="col-md-4 col-12 ">
+                        <p>Pago seguro</p>
+                        <div class="row d-flex align-items-center">
+                            <li class="col-3"><img src="/assets/footer_index/paypal.svg"  class="img-mediosdepago-footer" alt="Paypal"><img></li>
+                            <li class="col-3"><img src="/assets/footer_index/sofort.svg"  class="img-mediosdepago-footer" alt="Sofort"></li>
+                            <li class="col-3"><img src="/assets/footer_index/visa.svg" class="img-mediosdepago-footer" alt="Visa"><img></li>
+                            <li class="col-3"><img src="/assets/footer_index/mastercard-2.svg" class="img-mediosdepago-footer"  alt="Mastercard"><img></li>  
+                        </div>
+                    </ul> 
+                    <ul class="col-md-3 col-12 ">
+                        <p>Envios</p>
+                        <div class="row d-flex align-items-center">
+                            <li class="col-3 me-3 me-md-2 me-lg-3"><img src="/assets/footer_index/mrw.svg" class="img-envios-footer" alt="Mrw"><img></li>
+                            <li class="col-3 me-3 me-md-2 me-lg-3"><img src="/assets/footer_index/ups.svg" class="img-envios-footer" alt="Ups"><img></li>
+
+                            <li class="col-3 me-3 me-md-2 me-lg-3"><img src="/assets/footer_index/logo-correos-2019.svg" class="img-envios-footer" alt="Correos España"></li>
+                        </div>
+                    </ul> 
+                    <ul class="col-md-4 col-12">
+                        <p>Redes sociales</p>
+                        <div class="row d-flex align-items-center">
+                            <li class="col-3"><img src="/assets/footer_index/facebook.svg" class="redes-img-footer" alt="Facebook"></img></li>
+                            <li class="col-3"><img src="/assets/footer_index/instagram.svg" class="redes-img-footer" alt="Instagram"></img></li>
+                            <li class="col-3"><img src="/assets/footer_index/youtube.svg" class="redes-img-footer" alt="YouTube"></img></li>
+                            <li class="col-3"><img src="/assets/footer_index/twitter.svg" class="redes-img-footer" alt="twitter"></li></img></li>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+            <div class="pt-5">
+                <p class="text-center text-white copywrightText">Copyright &copy; Bicicleters 2022</p>
+            </div>
+    </footer>
+         <!-- Bootstrap core JS-->
+         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+         <!--JQuery-->
+         <script src="../js/jquery-3.6.0.min.js"></script>
+         <!--Funciones carrito-->
+         <script src="../js/main.js"> </script>
+         <!--Funciones de la pagina carrito-->
+         <script src="../js/carrito.js" ></script>
+         <!--Imprime cantidades seleccion de cantidad-->
+         <script src="../js/priceChangeded.js"></script>
+         <!-- buscador-->
+         <script src="../js/buscador.js"></script>        
+        <!-- funciones para registro y login usuarios -->
+        <script src="../js/sesion-usuario.js"></script>
+        <script src="https://www.paypal.com/sdk/js?client-id=ASbi6JRFQrY-uisNDrkyiRIoO_ZqIHpxxyCnC7WP1fMWJvj4cESWwrCuS9Q78CVKfpYHdJLJy0JGhF0B&currency=EUR"></script>
+    </body>
+</html>

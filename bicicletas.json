@@ -1,0 +1,1273 @@
+
+ [
+    {
+        "marca": "Specialized",
+        "modelo": "Rockhopper",
+        "precio": 674,
+        "img": "../assets/img_catalogo_bicis/specialized_rockhopper.jpg",
+        "color": "Negro",
+        "tipo": "MTB",
+        "novedad" : "no",
+        "id": 1
+    },
+    {
+        "marca": "Giant",
+        "modelo": "Advanced",
+        "precio": 2299,
+        "img": "../assets/img_catalogo_bicis/giant_advanced.jpg",
+        "color": "Blanco",
+        "tipo": "CARRETERA",
+        "novedad" : "si",
+        "id": 2
+    },
+    {
+        "marca": "Orbea",
+        "modelo": "Orca",
+        "precio": 2899,
+        "img": "../assets/img_catalogo_bicis/orbea_orca.jpg",
+        "color": "Blanco",
+        "tipo": "CARRETERA",
+        "novedad" : "si",
+        "id": 3
+    },
+    {
+        "marca": "Cannondale",
+        "modelo": "Trail",
+        "precio": 629,
+        "img": "../assets/img_catalogo_bicis/cannondale_trail.jpg",
+        "color": "Negro",
+        "tipo": "MTB",
+        "novedad" : "si",
+        "id": 4
+    },
+    {
+        "marca": "Liv",
+        "modelo": "Tempt",
+        "precio": 999,
+        "img": "../assets/catalogo-mtb/liv-tempt.jpeg",
+        "color": "Gris",
+        "tipo": "MTB",
+        "novedad": "no",
+        "id": 5
+    },
+    {
+        "marca": "Santa Cruz",
+        "modelo": "Highball",
+        "precio": 4290,
+        "img": "../assets/catalogo-mtb/santacruz-highball.jpeg",
+        "color": "Negro",
+        "tipo": "MTB",
+        "novedad": "no",
+        "id": 6
+    },
+    {
+        "marca": "Colouer",
+        "modelo": "Limbo",
+        "precio": 591,
+        "img": "../assets/catalogo-mtb/colouer-limbo.jpeg",
+        "color": "Negro",
+        "tipo": "MTB",
+        "novedad": "no",
+        "id": 7
+    },
+    {
+        "marca": "Megamo",
+        "modelo": "Factory",
+        "precio": 2098,
+        "img": "../assets/catalogo-mtb/megamo-factory.png",
+        "color": "Verde",
+        "tipo": "MTB",
+        "novedad": "no",
+        "id": 8
+    },
+    {
+        "marca": "Cube",
+        "modelo": "Access WS",
+        "precio": 599,
+        "img": "../assets/catalogo-mtb/cube-access-ws.jpeg",
+        "color": "Violeta",
+        "tipo": "MTB",
+        "novedad": "no",
+        "id": 9
+    },
+    {
+        "marca": "Ghost",
+        "modelo": "Kato Universal",
+        "precio": 454,
+        "img": "../assets/catalogo-mtb/ghost-kato.jpeg",
+        "color": "Negro",
+        "tipo": "MTB",
+        "novedad": "no",
+        "id": 10
+    },
+    {
+        "marca": "Colouer",
+        "modelo": "Pragma",
+        "precio": 644,
+        "img": "../assets/catalogo-mtb/colouer-pragma.jpeg",
+        "color": "Gris",
+        "tipo": "MTB",
+        "novedad": "no",
+        "id": 11
+    },
+    {
+        "marca": "Giant",
+        "modelo": "Stance",
+        "precio": 2399,
+        "img": "../assets/catalogo-mtb/giant-stance-1-29-2022.jpeg",
+        "color": "Rojo",
+        "tipo": "MTB",
+        "novedad": "no",
+        "id": 12
+    },
+    {
+        "marca": "Giant",
+        "modelo": "Trance",
+        "precio": 2699,
+        "img": "../assets/catalogo-mtb/giant-tranced.jpeg",
+        "color": "Negro",
+        "tipo": "MTB",
+        "novedad": "no",
+        "id": 13
+    },
+    {
+        "marca": "Santa Cruz",
+        "modelo": "Hightower",
+        "precio": 8290,
+        "img": "../assets/catalogo-mtb/santacruz-hightower.jpeg",
+        "color": "Naranja",
+        "tipo": "MTB",
+        "novedad": "si",
+        "id": 14
+    },
+    {
+        "marca": "Santa Cruz",
+        "modelo": "Megatower",
+        "precio": 6290,
+        "img": "../assets/catalogo-mtb/santacruz-megatower.jpeg",
+        "color": "Amarillo",
+        "tipo": "MTB",
+        "novedad": "no",
+        "id": 15
+    },
+    {
+        "marca": "Santa Cruz",
+        "modelo": "Nomad",
+        "precio": 6590,
+        "img": "../assets/catalogo-mtb/santacruz-nomad.jpeg",
+        "color": "Verde",
+        "tipo": "MTB",
+        "novedad": "no",
+        "id": 16
+    },
+    {
+        "marca": "Connor",
+        "modelo": "8500",
+        "precio": 579,
+        "img": "../assets/catalogo-mtb/conor-8500.jpeg",
+        "color": "Verde",
+        "tipo": "MTB",
+        "novedad": "no",
+        "id": 17
+    },
+    {
+        "marca": "Cube",
+        "modelo": "Acid",
+        "precio": 569,
+        "img": "../assets/catalogo-mtb/cube-acid.jpeg",
+        "color": "Azul",
+        "tipo": "MTB",
+        "novedad": "no",
+        "id": 18
+    },
+    {
+        "marca": "Specialized",
+        "modelo": "S-Works Turbo Creo Sl",
+        "precio": 8749,
+        "img": "../assets/catalogo-carretera/specialized-sworks-creo.jpeg",
+        "color": "Violeta",
+        "tipo": "CARRETERA",
+        "novedad": "no",
+        "id": 19
+    },
+    {
+        "marca": "Colouer",
+        "modelo": "Invicta Disc. 8.0",
+        "precio": 3055,
+        "img": "../assets/catalogo-carretera/colouer-invicta.jpeg",
+        "color": "Negro",
+        "tipo": "CARRETERA",
+        "novedad": "no",
+        "id": 19
+    },
+    {
+        "marca": "Specialized",
+        "modelo": "S-Works Aethos",
+        "precio": 10919,
+        "img": "../assets/catalogo-carretera/specialized-sworks-aethos.jpeg",
+        "color": "Marron",
+        "tipo": "CARRETERA",
+        "novedad": "no",
+        "id": 19
+    },
+    {
+        "marca": "Cannondale",
+        "modelo": "Super Six Evo Carbon",
+        "precio": 2804,
+        "img": "../assets/catalogo-carretera/cannondale-supersix-evo.png",
+        "color": "Azul",
+        "tipo": "CARRETERA",
+        "novedad": "no",
+        "id": 20
+    },
+    {
+        "marca": "Cannondale",
+        "modelo": "Caad Optimo 2",
+        "precio": 1104,
+        "img": "../assets/catalogo-carretera/cannondale-caad-optimo.jpeg",
+        "color": "Negro",
+        "tipo": "CARRETERA",
+        "novedad": "no",
+        "id": 20
+    },
+    {
+        "marca": "Orbea",
+        "modelo": "Orca M40",
+        "precio": 2299,
+        "img": "../assets/catalogo-carretera/orbea-orca.jpeg",
+        "color": "Naranja",
+        "tipo": "CARRETERA",
+        "novedad": "no",
+        "id": 20
+    },
+    {
+        "marca": "Basso",
+        "modelo": "Diamante Sv Ultegra",
+        "precio": 8999,
+        "img": "../assets/catalogo-carretera/basso-diamante.jpeg",
+        "color": "Gris",
+        "tipo": "CARRETERA",
+        "novedad": "no",
+        "id": 21
+    },
+    {
+        "marca": "Giant",
+        "modelo": "Tcr Advanced Sl",
+        "precio": 11499,
+        "img": "../assets/catalogo-carretera/giant-advanced-sl.jpeg",
+        "color": "Negro",
+        "tipo": "CARRETERA",
+        "novedad": "no",
+        "id": 21
+    },
+    {
+        "marca": "Specialized",
+        "modelo": "S-Works Tarmac Sl-7",
+        "precio": 14500,
+        "img": "../assets/catalogo-carretera/specialized-sworks-tarmac.jpeg",
+        "color": "Negro",
+        "tipo": "CARRETERA",
+        "novedad": "no",
+        "id": 22
+    },
+    {
+        "marca": "Orbea",
+        "modelo": "Orca M20 Team Pwr",
+        "precio": 3699,
+        "img": "../assets/catalogo-carretera/orbea-orca-m20team.jpeg",
+        "color": "Rojo",
+        "tipo": "CARRETERA",
+        "novedad": "no",
+        "id": 23
+    },
+    {
+        "marca": "Cannondale",
+        "modelo": "Adventure 1",
+        "precio": 719,
+        "img": "../assets/catalogo-urbanas/cannondale-adventure.jpeg",
+        "color": "Azul",
+        "tipo": "URBANAS",
+        "novedad": "no",
+        "id": 24
+    },
+    {
+        "marca": "Connor",
+        "modelo": "Soho",
+        "precio": 279,
+        "img": "../assets/catalogo-urbanas/conor-soho.jpeg",
+        "color": "Gris",
+        "tipo": "URBANAS",
+        "novedad": "no",
+        "id": 25
+    },
+    {
+        "marca": "Megamo",
+        "modelo": "Adventure",
+        "precio": 404,
+        "img": "../assets/catalogo-urbanas/megamo-adventure.jpeg",
+        "color": "Gris",
+        "tipo": "URBANAS",
+        "novedad": "no",
+        "id": 26
+    },
+    {
+        "marca": "Specialized",
+        "modelo": "Vado Sl 4.0",
+        "precio": 3900,
+        "img": "../assets/catalogo-urbanas/specialized-vado.jpeg",
+        "color": "Rojo",
+        "tipo": "URBANAS",
+        "novedad": "no",
+        "id": 27
+    },
+    {
+        "marca": "Connor",
+        "modelo": "Rocket 18'' ",
+        "precio": 180,
+        "img": "../assets/catalogo-infantil/conor-rocket.jpeg",
+        "color": "Naranja",
+        "tipo": "INFANTIL",
+        "novedad": "no",
+        "id": 28
+    },
+    {
+        "marca": "Cannondale",
+        "modelo": "Kids Trail Balance 12",
+        "precio": 191,
+        "img": "../assets/catalogo-infantil/cannondale-kids-trail.png",
+        "color": "Rojo",
+        "tipo": "INFANTIL",
+        "novedad": "no",
+        "id": 29
+    },
+    {
+        "marca": "Connor",
+        "modelo": "Meteor",
+        "precio": 194,
+        "img": "../assets/catalogo-infantil/connor-meteor.jpeg",
+        "color": "Azul",
+        "tipo": "INFANTIL",
+        "novedad": "no",
+        "id": 30
+    },
+    {
+        "marca": "Connor",
+        "modelo": "Wrc Discovery",
+        "precio": 296,
+        "img": "../assets/catalogo-infantil/conor-wrc-discovery.jpeg",
+        "color": "Azul",
+        "tipo": "INFANTIL",
+        "novedad": "no",
+        "id": 31
+    },
+    {
+        "marca": "Specialized",
+        "modelo": "Jett",
+        "precio": 425,
+        "img": "../assets/catalogo-infantil/specialized-jett.jpeg",
+        "color": "Azul",
+        "tipo": "INFANTIL",
+        "novedad": "no",
+        "id": 32
+    },
+    {
+        "marca": "Ghost",
+        "modelo": "E-Teru Universal",
+        "precio": 2029,
+        "img": "../assets/catalogo-ebikes/ghost-teru.jpeg",
+        "color": "Rojo",
+        "tipo": "E-BIKES",
+        "novedad": "no",
+        "id": 33
+    },
+    {
+        "marca": "Specialized",
+        "modelo": "Turbo Levo Sl Expert",
+        "precio": 6524,
+        "img": "../assets/catalogo-ebikes/specialized-turbo-tevo.jpeg",
+        "color": "Verde",
+        "tipo": "E-BIKES",
+        "novedad": "no",
+        "id": 34
+    },
+    {
+        "marca": "Cannondale",
+        "modelo": "Moterra Neo 3+",
+        "precio": 5099,
+        "img": "../assets/catalogo-ebikes/cannondale-moterra.png",
+        "color": "Negro",
+        "tipo": "E-BIKES",
+        "novedad": "no",
+        "id": 35
+    },
+    {
+        "marca": "Santa Cruz",
+        "modelo": "Heckler Cc 27,5",
+        "precio": 6409,
+        "img": "../assets/catalogo-ebikes/santacruz-ebike.jpeg",
+        "color": "Negro",
+        "tipo": "E-BIKES",
+        "novedad": "no",
+        "id": 36
+    },
+    {
+        "marca": "Santa Cruz",
+        "modelo": "Heckler Cc 27,5",
+        "precio": 6409,
+        "img": "../assets/catalogo-ebikes/santacruz-ebike2.jpeg",
+        "color": "Amarillo",
+        "tipo": "E-BIKES",
+        "novedad": "no",
+        "id": 37
+    },
+    {
+        "marca": "Cannondale",
+        "modelo": "Moterra Neo Carbon",
+        "precio": 7479,
+        "img": "../assets/catalogo-ebikes/cannondale-moterra-carbon.jpeg",
+        "color": "Blanco",
+        "tipo": "E-BIKES",
+        "novedad": "no",
+        "id": 38
+    },
+    {
+        "marca": "Orbea",
+        "modelo": "Keram",
+        "precio": 2549,
+        "img": "../assets/catalogo-ebikes/orbea-ebike.jpeg",
+        "color": "Verde",
+        "tipo": "E-BIKES",
+        "novedad": "no",
+        "id": 39
+    },
+    {
+        "marca": "Orbea",
+        "modelo": "Keram",
+        "precio": 2549,
+        "img": "../assets/catalogo-ebikes/orbea-ebike-2.jpeg",
+        "color": "Negro",
+        "tipo": "E-BIKES",
+        "novedad": "no",
+        "id": 40
+    },
+    {
+        "marca": "Specialized",
+        "modelo": "Seat Pack XI",
+        "precio": 25,
+        "img": "../assets/catalogo-accesorios/specialized-seat-pack-XI.jpeg",
+        "color": "Negro",
+        "tipo": "ACCESORIOS",
+        "novedad": "no",
+        "id": 41
+    },
+    {
+        "marca": "Specialized",
+        "modelo": "Seat Pack",
+        "precio": 14,
+        "img": "../assets/catalogo-accesorios/specialized-seat-pack.jpeg",
+        "color": "Verde",
+        "tipo": "ACCESORIOS",
+        "novedad": "no",
+        "id": 42
+    },
+    {
+        "marca": "Giant",
+        "modelo": "Kit Quick Fix Bolsa/Co2/Multiherr.",
+        "precio": 41,
+        "img": "../assets/catalogo-accesorios/giant-pack.jpeg",
+        "color": "Negro",
+        "tipo": "ACCESORIOS",
+        "novedad": "no",
+        "id": 43
+    },
+    {
+        "marca": "Giant",
+        "modelo": "Kit Quick Fix Combo C/bomba",
+        "precio": 44,
+        "img": "../assets/catalogo-accesorios/giant-kit-combo.jpeg",
+        "color": "Negro",
+        "tipo": "ACCESORIOS",
+        "novedad": "no",
+        "id": 44
+    },
+    {
+        "marca": "Giant",
+        "modelo": "Carry Bag Isp",
+        "precio": 189,
+        "img": "../assets/catalogo-accesorios/giant-bag-isp.jpeg",
+        "color": "Negro",
+        "tipo": "ACCESORIOS",
+        "novedad": "no",
+        "id": 45
+    },
+    {
+        "marca": "Giant",
+        "modelo": "Carry Shadow Gear Bag",
+        "precio": 109,
+        "img": "../assets/catalogo-accesorios/giant-bag-2.jpeg",
+        "color": "Negro",
+        "tipo": "ACCESORIOS",
+        "novedad": "no",
+        "id": 46
+    },
+    {
+        "marca": "Giant",
+        "modelo": "Seat Bag Wp 1.0L",
+        "precio": 27,
+        "img": "../assets/catalogo-accesorios/giant-seat-bag.jpeg",
+        "color": "Negro",
+        "tipo": "ACCESORIOS",
+        "novedad": "no",
+        "id": 47
+    },
+    {
+        "marca": "Giant",
+        "modelo": "Portabulto Dek Mik System",
+        "precio": 28,
+        "img": "../assets/catalogo-accesorios/giant-portabulto.jpeg",
+        "color": "Negro",
+        "tipo": "ACCESORIOS",
+        "novedad": "no",
+        "id": 48
+    },
+    {
+        "marca": "Specialized",
+        "modelo": "Seat Pack Med",
+        "precio": 19,
+        "img": "../assets/catalogo-accesorios/specialized-seat-pack-med.jpeg",
+        "color": "Rojo",
+        "tipo": "ACCESORIOS",
+        "novedad": "no",
+        "id": 49
+    },
+    {
+        "marca": "Giant",
+        "modelo": "Metro Pannier Basket-bag",
+        "precio": 45,
+        "img": "../assets/catalogo-accesorios/bolsa-sillin.jpeg",
+        "color": "Negro",
+        "tipo": "ACCESORIOS",
+        "novedad": "no",
+        "id": 50
+    },
+    {
+        "marca": "Orbea",
+        "modelo": "Culotte Rs1 Pad",
+        "precio": 43,
+        "img": "../assets/catalogo-ropa-calzado/orbea-culotte.jpeg",
+        "color": "Negro",
+        "tipo": "ROPA*Y*CALZADO",
+        "novedad": "no",
+        "id": 51
+    },
+    {
+        "marca": "Orbea",
+        "modelo": "Advanced Thermal Dwr Jacket",
+        "precio": 91,
+        "img": "../assets/catalogo-ropa-calzado/orbea-jacket.jpeg",
+        "color": "Azul",
+        "tipo": "ROPA*Y*CALZADO",
+        "novedad": "no",
+        "id": 52
+    },
+    {
+        "marca": "Orbea",
+        "modelo": "Advanced Thermal Dwr Jacket",
+        "precio": 93,
+        "img": "../assets/catalogo-ropa-calzado/orbea-jacket-2.jpeg",
+        "color": "Negro",
+        "tipo": "ROPA*Y*CALZADO",
+        "novedad": "no",
+        "id": 53
+    },
+    {
+        "marca": "Orbea",
+        "modelo": "Maillot Advanced Thermal Ls",
+        "precio": 55,
+        "img": "../assets/catalogo-ropa-calzado/orbea-jacket-3.jpeg",
+        "color": "Rojo",
+        "tipo": "ROPA*Y*CALZADO",
+        "novedad": "no",
+        "id": 54
+    },
+    {
+        "marca": "Orbea",
+        "modelo": "Maillot Advanced Thermal Ls",
+        "precio": 55,
+        "img": "../assets/catalogo-ropa-calzado/orbea-jacket-4.jpeg",
+        "color": "Rojo",
+        "tipo": "ROPA*Y*CALZADO",
+        "novedad": "no",
+        "id": 55
+    },
+    {
+        "marca": "Orbea",
+        "modelo": "Chaleco Advanced Thermal Dwr Gilet",
+        "precio": 60,
+        "img": "../assets/catalogo-ropa-calzado/orbea-chaleco-1.jpeg",
+        "color": "Rojo",
+        "tipo": "ROPA*Y*CALZADO",
+        "novedad": "no",
+        "id": 56
+    },
+    {
+        "marca": "Orbea",
+        "modelo": "Chaleco Advanced Thermal Dwr Gilet",
+        "precio": 60,
+        "img": "../assets/catalogo-ropa-calzado/orbea-chaleco-2.jpeg",
+        "color": "Negro",
+        "tipo": "ROPA*Y*CALZADO",
+        "novedad": "no",
+        "id": 57
+    },
+    {
+        "marca": "Specialized",
+        "modelo": "Guantes Element 1.0",
+        "precio": 21,
+        "img": "../assets/catalogo-ropa-calzado/specialized-guantes-1.jpeg",
+        "color": "Amarillo",
+        "tipo": "ROPA*Y*CALZADO",
+        "novedad": "no",
+        "id": 58
+    },
+    {
+        "marca": "Specialized",
+        "modelo": "Guantes Element 1.5",
+        "precio": 22,
+        "img": "../assets/catalogo-ropa-calzado/specialized-guantes-2.jpeg",
+        "color": "Amarillo",
+        "tipo": "ROPA*Y*CALZADO",
+        "novedad": "no",
+        "id": 58
+    },
+    {
+        "marca": "Specialized",
+        "modelo": "Guantes Renegade",
+        "precio": 14,
+        "img": "../assets/catalogo-ropa-calzado/specialized-guantes-3.jpeg",
+        "color": "Rosa",
+        "tipo": "ROPA*Y*CALZADO",
+        "novedad": "no",
+        "id": 59
+    },
+    {
+        "marca": "Specialized",
+        "modelo": "Camiseta S Podium",
+        "precio": 10,
+        "img": "../assets/catalogo-ropa-calzado/specialized-camiseta-1.jpeg",
+        "color": "Naranja",
+        "tipo": "ROPA*Y*CALZADO",
+        "novedad": "no",
+        "id": 60
+    },
+    {
+        "marca": "Specialized",
+        "modelo": "Camiseta Drirelease S-Logo",
+        "precio": 14,
+        "img": "../assets/catalogo-ropa-calzado/specialized-camiseta-2.jpeg",
+        "color": "Rojo",
+        "tipo": "ROPA*Y*CALZADO",
+        "novedad": "no",
+        "id": 61
+    },
+    {
+        "marca": "Specialized",
+        "modelo": "Camiseta Std Stretcher",
+        "precio": 15,
+        "img": "../assets/catalogo-ropa-calzado/specialized-camiseta-3.jpeg",
+        "color": "Verde",
+        "tipo": "ROPA*Y*CALZADO",
+        "novedad": "no",
+        "id": 62
+    },
+    {
+        "marca": "Specialized",
+        "modelo": "Camiseta Std Original",
+        "precio": 15,
+        "img": "../assets/catalogo-ropa-calzado/specialized-camiseta-4.jpeg",
+        "color": "Blanco",
+        "tipo": "ROPA*Y*CALZADO",
+        "novedad": "no",
+        "id": 63
+    },
+    {
+        "marca": "Specialized",
+        "modelo": "Camiseta Std Stretcher",
+        "precio": 15,
+        "img": "../assets/catalogo-ropa-calzado/specialized-camiseta-5.jpeg",
+        "color": "Negro",
+        "tipo": "ROPA*Y*CALZADO",
+        "novedad": "no",
+        "id": 64
+    },
+    {
+        "marca": "Specialized",
+        "modelo": "Camiseta Std Stretcher",
+        "precio": 15,
+        "img": "../assets/catalogo-ropa-calzado/specialized-camiseta-6.jpeg",
+        "color": "Negro",
+        "tipo": "ROPA*Y*CALZADO",
+        "novedad": "no",
+        "id": 65
+    },
+    {
+        "marca": "Specialized",
+        "modelo": "Maillot Light Ss Jersey",
+        "precio": 75,
+        "img": "../assets/catalogo-ropa-calzado/specialized-maillot.jpeg",
+        "color": "Negro",
+        "tipo": "ROPA*Y*CALZADO",
+        "novedad": "no",
+        "id": 66
+    },
+    {
+        "marca": "Specialized",
+        "modelo": "Culotte Therminal Rbx Sport",
+        "precio": 45,
+        "img": "../assets/catalogo-ropa-calzado/specialized-culotte.jpeg",
+        "color": "Negro",
+        "tipo": "ROPA*Y*CALZADO",
+        "novedad": "no",
+        "id": 67
+    },
+    {
+        "marca": "Specialized",
+        "modelo": "Bora Hansgrohe 2021 Team ",
+        "precio": 12,
+        "img": "../assets/catalogo-ropa-calzado/specialized-gorra.jpeg",
+        "color": "Blanco",
+        "tipo": "ROPA*Y*CALZADO",
+        "novedad": "no",
+        "id": 68
+    },
+    {
+        "marca": "Cube",
+        "modelo": "Culotte Cube Backline",
+        "precio": 48,
+        "img": "../assets/catalogo-ropa-calzado/culotte-cube.jpeg",
+        "color": "Negro",
+        "tipo": "ROPA*Y*CALZADO",
+        "novedad": "no",
+        "id": 69
+    },
+    {
+        "marca": "Cube",
+        "modelo": "Pantalones Edge X Action Team",
+        "precio": 40,
+        "img": "../assets/catalogo-ropa-calzado/pantalon-cube.jpeg",
+        "color": "Gris",
+        "tipo": "ROPA*Y*CALZADO",
+        "novedad": "no",
+        "id": 70
+    },
+    {
+        "marca": "Cannondale",
+        "modelo": "Pantalones Cfr Team Replica Mtb",
+        "precio": 58,
+        "img": "../assets/catalogo-ropa-calzado/cannondale-pantalon.jpeg",
+        "color": "Negro",
+        "tipo": "ROPA*Y*CALZADO",
+        "novedad": "no",
+        "id": 71
+    },
+    {
+        "marca": "Cannondale",
+        "modelo": "Maillot Cfr Team Replica Replica",
+        "precio": 40,
+        "img": "../assets/catalogo-ropa-calzado/cannondale-maillot.jpeg",
+        "color": "Blanco",
+        "tipo": "ROPA*Y*CALZADO",
+        "novedad": "no",
+        "id": 72
+    },
+    {
+        "marca": "Giant",
+        "modelo": "Culotte Race Day",
+        "precio": 63,
+        "img": "../assets/catalogo-ropa-calzado/giant-culotte.jpeg",
+        "color": "Negro",
+        "tipo": "ROPA*Y*CALZADO",
+        "novedad": "no",
+        "id": 73
+    },
+    {
+        "marca": "Giant",
+        "modelo": "Guantes Transcend",
+        "precio": 18,
+        "img": "../assets/catalogo-ropa-calzado/giant-guantes.jpeg",
+        "color": "Naranja",
+        "tipo": "ROPA*Y*CALZADO",
+        "novedad": "no",
+        "id": 74
+    },
+    {
+        "marca": "Giant",
+        "modelo": "Guantes Transcend",
+        "precio": 18,
+        "img": "../assets/catalogo-ropa-calzado/giant-guantes-2.jpeg",
+        "color": "Rojo",
+        "tipo": "ROPA*Y*CALZADO",
+        "novedad": "no",
+        "id": 75
+    },
+    {
+        "marca": "Giant",
+        "modelo": "Guantes Transcend",
+        "precio": 18,
+        "img": "../assets/catalogo-ropa-calzado/giant-guantes-3.jpeg",
+        "color": "Amarillo",
+        "tipo": "ROPA*Y*CALZADO",
+        "novedad": "no",
+        "id": 76
+    },
+    {
+        "marca": "Giant",
+        "modelo": "Gorro Beanie",
+        "precio": 17,
+        "img": "../assets/catalogo-ropa-calzado/giant-gorro.jpeg",
+        "color": "Gris",
+        "tipo": "ROPA*Y*CALZADO",
+        "novedad": "no",
+        "id": 77
+    },
+    {
+        "marca": "Specialized",
+        "modelo": "Guantes Bg Rail Ws",
+        "precio": 24,
+        "img": "../assets/catalogo-ropa-calzado/guantes-woman-2.jpeg",
+        "color": "Rosa",
+        "tipo": "ROPA*Y*CALZADO",
+        "novedad": "no",
+        "id": 78
+    },
+    {
+        "marca": "Specialized",
+        "modelo": "Guantes Lodown Ws",
+        "precio": 16,
+        "img": "../assets/catalogo-ropa-calzado/guantes-woman.jpeg",
+        "color": "Gris",
+        "tipo": "ROPA*Y*CALZADO",
+        "novedad": "no",
+        "id": 79
+    },
+    {
+        "marca": "Specialized",
+        "modelo": "Maillot Comp Logo Team Ws",
+        "precio": 37,
+        "img": "../assets/catalogo-ropa-calzado/maillot-woman-1.jpeg",
+        "color": "Blanco",
+        "tipo": "ROPA*Y*CALZADO",
+        "novedad": "no",
+        "id": 80
+    },
+    {
+        "marca": "Specialized",
+        "modelo": "Maillot Comp Logo Team Ws",
+        "precio": 37,
+        "img": "../assets/catalogo-ropa-calzado/maillot-woman-2.jpeg",
+        "color": "Negro",
+        "tipo": "ROPA*Y*CALZADO",
+        "novedad": "no",
+        "id": 81
+    },
+    {
+        "marca": "Orbea",
+        "modelo": "Chaleco Adv. Windbreaker Ws",
+        "precio": 34,
+        "img": "../assets/catalogo-ropa-calzado/orbea-chaleco-1-ws.jpeg",
+        "color": "Rojo",
+        "tipo": "ROPA*Y*CALZADO",
+        "novedad": "no",
+        "id": 82
+    },
+    {
+        "marca": "Orbea",
+        "modelo": "Chaleco Adv. Windbreaker Ws",
+        "precio": 40,
+        "img": "../assets/catalogo-ropa-calzado/orbea-chaleco-2-ws.jpeg",
+        "color": "Negro",
+        "tipo": "ROPA*Y*CALZADO",
+        "novedad": "no",
+        "id": 83
+    },
+    {
+        "marca": "Orbea",
+        "modelo": "Chaqueta Adv. Thermal Dwr Ws",
+        "precio": 92,
+        "img": "../assets/catalogo-ropa-calzado/orbea-maillot-1-ws.jpeg",
+        "color": "Azul",
+        "tipo": "ROPA*Y*CALZADO",
+        "novedad": "no",
+        "id": 84
+    },
+    {
+        "marca": "Orbea",
+        "modelo": "Chaqueta Adv. Thermal Light Ws",
+        "precio": 80,
+        "img": "../assets/catalogo-ropa-calzado/orbea-maillot-2-ws.jpeg",
+        "color": "Verde",
+        "tipo": "ROPA*Y*CALZADO",
+        "novedad": "no",
+        "id": 85
+    },
+    {
+        "marca": "Orbea",
+        "modelo": "Maillot Winter Fty Ws",
+        "precio": 62,
+        "img": "../assets/catalogo-ropa-calzado/orbea-maillot-3-ws.jpeg",
+        "color": "Verde",
+        "tipo": "ROPA*Y*CALZADO",
+        "novedad": "no",
+        "id": 86
+    },
+    {
+        "marca": "Liv",
+        "modelo": "Brand Tech Ws",
+        "precio": 11,
+        "img": "../assets/catalogo-ropa-calzado/liv-camiseta.jpeg",
+        "color": "Negro",
+        "tipo": "ROPA*Y*CALZADO",
+        "novedad": "no",
+        "id": 87
+    },
+    {
+        "marca": "Liv",
+        "modelo": "Camiseta interior Top Beyond",
+        "precio": 12,
+        "img": "../assets/catalogo-ropa-calzado/liv-camiseta-interior-1.jpeg",
+        "color": "Gris",
+        "tipo": "ROPA*Y*CALZADO",
+        "novedad": "no",
+        "id": 88
+    },
+    {
+        "marca": "Liv",
+        "modelo": "Camiseta interior Sports Bra",
+        "precio": 21,
+        "img": "../assets/catalogo-ropa-calzado/liv-camiseta-interior-2.jpeg",
+        "color": "Negro",
+        "tipo": "ROPA*Y*CALZADO",
+        "novedad": "no",
+        "id": 89
+    },
+    {
+        "marca": "Liv",
+        "modelo": "Culotte Liv Vera Ws",
+        "precio": 21,
+        "img": "../assets/catalogo-ropa-calzado/liv-culotte.jpeg",
+        "color": "Violeta",
+        "tipo": "ROPA*Y*CALZADO",
+        "novedad": "no",
+        "id": 90
+    },
+    {
+        "marca": "Liv",
+        "modelo": "Maillot Audacia Ws",
+        "precio": 79,
+        "img": "../assets/catalogo-ropa-calzado/liv-maillot-1.jpeg",
+        "color": "Verde",
+        "tipo": "ROPA*Y*CALZADO",
+        "novedad": "no",
+        "id": 91
+    },
+    {
+        "marca": "Liv",
+        "modelo": "Maillot Mc Team Ws",
+        "precio": 95,
+        "img": "../assets/catalogo-ropa-calzado/liv-maillot-2.jpeg",
+        "color": "Violeta",
+        "tipo": "ROPA*Y*CALZADO",
+        "novedad": "no",
+        "id": 92
+    },
+    {
+        "marca": "Liv",
+        "modelo": "Maillot Valentia Ws",
+        "precio": 63,
+        "img": "../assets/catalogo-ropa-calzado/liv-maillot-3.jpeg",
+        "color": "Rosa",
+        "tipo": "ROPA*Y*CALZADO",
+        "novedad": "no",
+        "id": 93
+    },
+    {
+        "marca": "Cube",
+        "modelo": "Casco Am Race",
+        "precio": 40,
+        "img": "../assets/catalogo-equipamiento/cube-casco.jpeg",
+        "color": "Negro",
+        "tipo": "EQUIPAMIENTO",
+        "novedad": "no",
+        "id": 94
+    },
+    {
+        "marca": "Cube",
+        "modelo": "Casco Dirt",
+        "precio": 16,
+        "img": "../assets/catalogo-equipamiento/cube-casco-2.jpeg",
+        "color": "Blanco",
+        "tipo": "EQUIPAMIENTO",
+        "novedad": "no",
+        "id": 95
+    },
+    {
+        "marca": "Cube",
+        "modelo": "Casco Dirt",
+        "precio": 16,
+        "img": "../assets/catalogo-equipamiento/cube-casco-3.jpeg",
+        "color": "Azul",
+        "tipo": "EQUIPAMIENTO",
+        "novedad": "no",
+        "id": 96
+    },
+    {
+        "marca": "Cube",
+        "modelo": "Casco Dirt",
+        "precio": 16,
+        "img": "../assets/catalogo-equipamiento/cube-casco-4.jpeg",
+        "color": "Rojo",
+        "tipo": "EQUIPAMIENTO",
+        "novedad": "no",
+        "id": 97
+    },
+    {
+        "marca": "Cube",
+        "modelo": "Casco Dirt",
+        "precio": 16,
+        "img": "../assets/catalogo-equipamiento/cube-casco-5.jpeg",
+        "color": "Negro",
+        "tipo": "EQUIPAMIENTO",
+        "novedad": "no",
+        "id": 98
+    },
+    {
+        "marca": "Cube",
+        "modelo": "Casco Lume",
+        "precio": 16,
+        "img": "../assets/catalogo-equipamiento/cube-casco-6.jpeg",
+        "color": "Azul",
+        "tipo": "EQUIPAMIENTO",
+        "novedad": "no",
+        "id": 99
+    },
+    {
+        "marca": "Cube",
+        "modelo": "Casco Lume",
+        "precio": 16,
+        "img": "../assets/catalogo-equipamiento/cube-casco-7.jpeg",
+        "color": "Negro",
+        "tipo": "EQUIPAMIENTO",
+        "novedad": "no",
+        "id": 100
+    },
+    {
+        "marca": "Cannondale",
+        "modelo": "Casco Hunter",
+        "precio": 63,
+        "img": "../assets/catalogo-equipamiento/cannondale-casco.png",
+        "color": "Blanco",
+        "tipo": "EQUIPAMIENTO",
+        "novedad": "no",
+        "id": 101
+    },
+    {
+        "marca": "Orbea",
+        "modelo": "Casco R10 Aero Mips",
+        "precio": 114,
+        "img": "../assets/catalogo-equipamiento/orbea-casco.jpeg",
+        "color": "Naranja",
+        "tipo": "EQUIPAMIENTO",
+        "novedad": "no",
+        "id": 102
+    },
+    {
+        "marca": "Specialized",
+        "modelo": "S-Works Prevail Ii Vent Team",
+        "precio": 194,
+        "img": "../assets/catalogo-equipamiento/specialized-casco.jpeg",
+        "color": "Verde",
+        "tipo": "EQUIPAMIENTO",
+        "novedad": "no",
+        "id": 103
+    },
+    {
+        "marca": "Specialized",
+        "modelo": "S-Works Prevail Ii Vent Team",
+        "precio": 194,
+        "img": "../assets/catalogo-equipamiento/specialized-casco-2.jpeg",
+        "color": "Blanco",
+        "tipo": "EQUIPAMIENTO",
+        "novedad": "no",
+        "id": 104
+    },
+    {
+        "marca": "Specialized",
+        "modelo": "Align Li Mips",
+        "precio": 39,
+        "img": "../assets/catalogo-equipamiento/specialized-casco-3.jpeg",
+        "color": "Rojo",
+        "tipo": "EQUIPAMIENTO",
+        "novedad": "no",
+        "id": 105
+    },
+    {
+        "marca": "Specialized",
+        "modelo": "S-Works Evade Li Mips",
+        "precio": 200,
+        "img": "../assets/catalogo-equipamiento/specialized-casco-4.jpeg",
+        "color": "Dorado",
+        "tipo": "EQUIPAMIENTO",
+        "novedad": "no",
+        "id": 106
+    },
+    {
+        "marca": "Giant",
+        "modelo": "Persuit",
+        "precio": 105,
+        "img": "../assets/catalogo-equipamiento/giant-casco.jpeg",
+        "color": "Rojo",
+        "tipo": "EQUIPAMIENTO",
+        "novedad": "no",
+        "id": 107
+    },
+    {
+        "marca": "Giant",
+        "modelo": "Rodilleras Giant Titan",
+        "precio": 109,
+        "img": "../assets/catalogo-equipamiento/giant-proteccion-1.jpeg",
+        "color": "Negro",
+        "tipo": "EQUIPAMIENTO",
+        "novedad": "no",
+        "id": 108
+    },
+    {
+        "marca": "Giant",
+        "modelo": "Rodilleras Giant Titan",
+        "precio": 109,
+        "img": "../assets/catalogo-equipamiento/giant-proteccion-2.jpeg",
+        "color": "Negro",
+        "tipo": "EQUIPAMIENTO",
+        "novedad": "no",
+        "id": 109
+    },
+    {
+        "marca": "Giant",
+        "modelo": "Rodilleras Giant Koloss",
+        "precio": 75,
+        "img": "../assets/catalogo-equipamiento/giant-proteccion-3.jpeg",
+        "color": "Negro",
+        "tipo": "EQUIPAMIENTO",
+        "novedad": "no",
+        "id": 110
+    },
+    {
+        "marca": "Giant",
+        "modelo": "Rep Válvula 1,5l Cascade 4/6l",
+        "precio": 10,
+        "img": "../assets/catalogo-equipamiento/giant-mochilas-1.jpeg",
+        "color": "Azul",
+        "tipo": "EQUIPAMIENTO",
+        "novedad": "no",
+        "id": 111
+    },
+    {
+        "marca": "Giant",
+        "modelo": "Repuesto Válvula 3l Cascade 12l",
+        "precio": 10,
+        "img": "../assets/catalogo-equipamiento/giant-mochilas-2.jpeg",
+        "color": "Azul",
+        "tipo": "EQUIPAMIENTO",
+        "novedad": "no",
+        "id": 112
+    },
+    {
+        "marca": "Giant",
+        "modelo": "Vejiga 1,5l Cascade 4/6l",
+        "precio": 20,
+        "img": "../assets/catalogo-equipamiento/giant-mochilas-3.jpeg",
+        "color": "Azul",
+        "tipo": "EQUIPAMIENTO",
+        "novedad": "no",
+        "id": 113
+    },
+    {
+        "marca": "Giant",
+        "modelo": "Mochila Hidratación Cascade 12l",
+        "precio": 119,
+        "img": "../assets/catalogo-equipamiento/giant-mochilas-4.jpeg",
+        "color": "Verde",
+        "tipo": "EQUIPAMIENTO",
+        "novedad": "no",
+        "id": 114
+    },
+    {
+        "marca": "Giant",
+        "modelo": "Mochila Hidratación Cascade 12l",
+        "precio": 119,
+        "img": "../assets/catalogo-equipamiento/giant-mochilas-5.jpeg",
+        "color": "Gris",
+        "tipo": "EQUIPAMIENTO",
+        "novedad": "no",
+        "id": 115
+    },
+    {
+        "marca": "Specialized",
+        "modelo": "Potenciometro Power Cranks",
+        "precio": 5,
+        "img": "../assets/catalogo-equipamiento/specialized-potenciometro.jpeg",
+        "color": "Negro",
+        "tipo": "EQUIPAMIENTO",
+        "novedad": "no",
+        "id": 116
+    },
+    {
+        "marca": "Specialized",
+        "modelo": "Biela Power UpGrade Kit",
+        "precio": 205,
+        "img": "../assets/catalogo-equipamiento/specialized-biela.jpeg",
+        "color": "Gris",
+        "tipo": "EQUIPAMIENTO",
+        "novedad": "no",
+        "id": 117
+    },
+    {
+        "marca": "Giant",
+        "modelo": "Cuentakilómetros Axact 9w",
+        "precio": 30,
+        "img": "../assets/catalogo-equipamiento/giant-cuentakilometros-1.jpeg",
+        "color": "Blanco",
+        "tipo": "EQUIPAMIENTO",
+        "novedad": "no",
+        "id": 118
+    },
+    {
+        "marca": "Giant",
+        "modelo": "Cuentakilómetros Axact 13w",
+        "precio": 44,
+        "img": "../assets/catalogo-equipamiento/giant-cuentakilometros-2.jpeg",
+        "color": "Negro",
+        "tipo": "EQUIPAMIENTO",
+        "novedad": "no",
+        "id": 119
+    },
+    {
+        "marca": "Cube",
+        "modelo": "Cuentakilómetros Race Peak",
+        "precio": 52,
+        "img": "../assets/catalogo-equipamiento/cube-cuentakilometros.jpeg",
+        "color": "Negro",
+        "tipo": "EQUIPAMIENTO",
+        "novedad": "no",
+        "id": 120
+    },
+    {
+        "marca": "Giant",
+        "modelo": "Biela Pot. PowerPro 50x34",
+        "precio": 52,
+        "img": "../assets/catalogo-equipamiento/giant-biela.jpeg",
+        "color": "Negro",
+        "tipo": "EQUIPAMIENTO",
+        "novedad": "no",
+        "id": 121
+    }
+]
