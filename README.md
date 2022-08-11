@@ -5,6 +5,9 @@ Bicicleters es mi primer sitio desarrollado en Javascript.
 Lo hice para el curso de Javascript de Coderhouse.
 Con mucho esfuerzo y dedicación pude desarrollarlo.
 
+# Aclaración
+Esta es la versión para github para descargar localmente en su ordenador. La version colocada en la web ya se encuentra en [https://bicicleters.netlify.app/].  
+
 ## HERRAMIENTAS
 ⚒️ Para crear el sitio se usaron las diferentes herramientas: 
 
@@ -28,7 +31,7 @@ Es de codigo abierto para ser modificado y mejorado por quien lo desee.
 
 ### Instalar
 Puedes descargar desde aqui: 
-`https://github.com/sebastianbarcia/bicicletes.git`
+`https://github.com/sebastianbarcia/bicicleters.git`
 
 ### Available Scripts
 En el directorio del proyecto puedes trabajar con la extension de Visual Studio Code: liveserver.
