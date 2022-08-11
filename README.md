@@ -3,10 +3,10 @@
 Bicicleters es un sitio especializado en venta de bicicletas, accesorios y equipamiento para la practica del ciclismo.
 Bicicleters es mi primer sitio desarrollado en Javascript. 
 Lo hice para el curso de Javascript de Coderhouse.
-Con mucho esfuerzo y dedicación pude desarrollarlo.
 
 # Aclaración
-Esta es la versión para github para descargar localmente en su ordenador. La version colocada en la web ya se encuentra en [https://bicicleters.netlify.app/].  
+Esta es la versión para github para descargar localmente en su ordenador. 
+La version colocada en la web ya se encuentra en [https://bicicleters.netlify.app/].  
 
 ## HERRAMIENTAS
 ⚒️ Para crear el sitio se usaron las diferentes herramientas: 
