@@ -78,9 +78,9 @@ for (let i = 0; i < usuariosRegistrados.length; i++) {
         $("#staticBackdropModal").modal("show");
 
         $(".btnBackPage").on("click",function(){
-            if(document.referrer === "http://127.0.0.1:5506/index.html"){
+            if(document.referrer === "https://bicicleters.netlify.app/index.html"){
             window.location.href = "../index.html"; 
-            }else if(document.referrer === "http://127.0.0.1:5506/pages/carrito.html"){
+            }else if(document.referrer === "https://bicicleters.netlify.app/pages/carrito.html"){
                 window.location.href = "../pages/carrito.html";
             }else{
                 window.location.href = "../index.html";

@@ -161,7 +161,7 @@ function guardarUsuarios(){
              if(window.location.hash === "#/registro"){
                 //revisar modal si puede quedar fijo al apretar boton
                 $("#my-Modal").modal("hide");
-                window.location.href = "http://127.0.0.1:5506/pages/cuenta.html#/login";
+                window.location.href = "https://bicicleters.netlify.app/pages/cuenta.html#/login";
             }else{
                 window.location.href = "../index.html";
             }
