@@ -50,17 +50,13 @@ git commit -m "Nuevo mensaje"
 git push https://github.com/sebastianbarcia/bicicleters.git
 
 ## (*) Como utilizar PayPal Sandbox 
-1- Registrarse en [https://developer.paypal.com/developer/accounts/] 
-2- Crear usuario ficticio (puede ser manualmente o por defecto)
-3- Apuntar todos los datos importantes del usuario creado (usuario, contraseña, datos de tarjetas).
-4- Ya en el sitio de bicicleters podrás elegir las opciones de pago cuando completes el proceso de compra del sitio. Se te pedira todo lo que habias regitrado anteriormente en [https://developer.paypal.com/developer/accounts/] 
+1- Registrarse en [https://developer.paypal.com/developer/accounts/].<br> 
+2- Crear usuario ficticio (puede ser manualmente o por defecto). <br>
+3- Apuntar todos los datos importantes del usuario creado (usuario, contraseña, datos de tarjetas).<br>
+4- Ya en el sitio de bicicleters podrás elegir las opciones de pago cuando completes el proceso de compra del sitio. Se te pedira todo lo que habias regitrado anteriormente en [https://developer.paypal.com/developer/accounts/] .<br>
 
 ## PRUEBAS PAGINA WEB 
 Tambien es importante que pruebe la usabilidad del sitio, el DCU y todo lo que conciernte al UX/UI para poder mejorarlo. Todos estos aportes seran de gran valor 📈.
-
-### MIRAR VIDEO DEL SITIO WEB:
-[BICICLETERS]
-
 
 ## AGRADECIMIENTOS ESPECIALES
 ❤️ Este sitio se lo dedico a mi familia Eliana, Paz, Borja, 🐶 Shanti.
