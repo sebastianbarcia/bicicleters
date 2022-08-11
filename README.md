@@ -5,7 +5,7 @@ Bicicleters es mi primer sitio desarrollado en Javascript. <br>
 Lo hice para el curso de Javascript de Coderhouse.<br>
 
 # Aclaración
-La rama "main" es la versión para descargar localmente en su ordenador desde github.<br>
+La rama "main" es la versión para trabajar localmente en su ordenador desde github con servidor local.<br>
 La version colocada en la web ya se encuentra en [https://bicicleters.netlify.app/] y es la que se encuentra en la rama "gh-pages".<br> 
 La diferencia entre la rama "main" y la "gh-pages" son los vinculos en los archivos form.js y login.js.<br>  
 
