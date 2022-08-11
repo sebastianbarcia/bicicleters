@@ -11,14 +11,14 @@ La version colocada en la web ya se encuentra en [https://bicicleters.netlify.ap
 ## HERRAMIENTAS
 ⚒️ Para crear el sitio se usaron las diferentes herramientas: 
 
-✨ Javascript : Para darle dinamismo a la pagina.
-🗼 Html5: Otorga la estructura del sitio.
-🎨 Css3: Para darle estilo visual y maquetado responsive.
-🍥 Bootstrap : Componentes, iconos, colores, estilos y layout grids de bootstrap Components
-https://getbootstrap.com/
-🔙 Backend : Las llamadas al backend fueron hacia archivos locales JSON. 
-🖌️ Imagenes y vectores fueron extraidos de freepik y trabajados segun el caso con Illustrator, Photoshop y Vectornator.
-🧾 API PayPal Sandbox: Utilización de api PayPal simulando pagos y cobros.(*)
+✨ Javascript : Para darle dinamismo a la pagina.<br>
+🗼 Html5: Otorga la estructura del sitio.<br>
+🎨 Css3: Para darle estilo visual y maquetado responsive.<br>
+🍥 Bootstrap : Componentes, iconos, colores, estilos y layout grids de bootstrap Components.
+https://getbootstrap.com/ <br>
+🔙 Backend : Las llamadas al backend fueron hacia archivos locales JSON. <br>
+🖌️ Imagenes y vectores fueron extraidos de freepik y trabajados segun el caso con Illustrator, Photoshop y Vectornator.<br>
+🧾 API PayPal Sandbox: Utilización de api PayPal simulando pagos y cobros.(*)<br>
 
 ## Puntos destacados 
 Utilización de LocalStorage y SessionStorage para mantener productos en la sesión, crear y loguear usuarios
