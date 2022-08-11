@@ -1,15 +1,16 @@
 # Acerca del proyecto
-🌐 E-commerce del sitio bicicleters
-Bicicleters es un sitio especializado en venta de bicicletas, accesorios y equipamiento para la practica del ciclismo.
-Bicicleters es mi primer sitio desarrollado en Javascript. 
-Lo hice para el curso de Javascript de Coderhouse.
+🌐 E-commerce del sitio bicicleters <br>
+Bicicleters es un sitio especializado en venta de bicicletas, accesorios y equipamiento para la practica del ciclismo. <br>
+Bicicleters es mi primer sitio desarrollado en Javascript. <br>
+Lo hice para el curso de Javascript de Coderhouse.<br>
 
 # Aclaración
-Esta es la versión para github para descargar localmente en su ordenador. 
-La version colocada en la web ya se encuentra en [https://bicicleters.netlify.app/].  
+La rama "main" es la versión para descargar localmente en su ordenador desde github.<br>
+La version colocada en la web ya se encuentra en [https://bicicleters.netlify.app/] y es la que se encuentra en la rama "gh-pages".<br> 
+La diferencia entre la rama "main" y la "gh-pages" son los vinculos en los archivos form.js y login.js.<br>  
 
 ## HERRAMIENTAS
-⚒️ Para crear el sitio se usaron las diferentes herramientas: 
+⚒️ Para crear el sitio se usaron las diferentes herramientas: <br> 
 
 ✨ Javascript : Para darle dinamismo a la pagina.<br>
 🗼 Html5: Otorga la estructura del sitio.<br>
@@ -26,7 +27,7 @@ Utilización de LocalStorage y SessionStorage para mantener productos en la sesi
 ## PARA ARRANCAR EL PROGRAMA
 
 ### Github
-El sitio se encuentra en https://github.com/sebastianbarcia/bicicleters.git.
+El sitio se encuentra en https://github.com/sebastianbarcia/bicicleters.git.<br>
 Es de codigo abierto para ser modificado y mejorado por quien lo desee.
 
 ### Instalar
@@ -43,11 +44,11 @@ La página se volverá a cargar cuando realice cambios.
 También puede ver errores en la consola.
 
 ### SI DESEA CONTRIBUIR A MI SITIO, CREE UNA SUCURSAL EN GITHUB Y `Push to github repository`
-git branch new_branch 
-git checkout new_branch
-git add all / git add .
-git commit -m "Nuevo mensaje"
-git push https://github.com/sebastianbarcia/bicicleters.git
+git branch new_branch <br>
+git checkout new_branch <br>
+git add all / git add . <br>
+git commit -m "Nuevo mensaje" <br>
+git push https://github.com/sebastianbarcia/bicicleters.git <br>
 
 ## (*) Como utilizar PayPal Sandbox 
 1- Registrarse en [https://developer.paypal.com/developer/accounts/].<br> 
