@@ -73,18 +73,21 @@ Este proyecto tiene la licencia de Sebastian Barcia y fue creado para su uso en 
 
 ## Acerca de mí
 
+```javascript
 const sebastianbarcia = {
-  pronouns: "el",
-  codigo: [Javascript, HTML, CSS],
-  herramientas: [React, Bootstrap, MUI, Git, Sass, Adobe XD, Figma, Illustrator, Photoshop],
+  pronombres: "él",
+  código: [Javascript, HTML, CSS, ReactJS],
+  herramientas: [Bootstrap, MUI, Git, Sass, Adobe XD, Figma, Illustrator, Photoshop],
 }
 
 - 👨‍💻 Todos mis proyectos están disponibles en [https://github.com/sebastianbarcia](https://github.com/sebastianbarcia)
 
-- 💬 Preguntame sobre **React JS, Javascript, HTML5, CSS3**
+- 💬 Pregúntame sobre **React JS, Javascript, HTML5, CSS3**
 
-- 📫 Contactame a **sebastianbarcia@hotmail.com**
+- 📫 Como contactarme **sebastianbarcia@hotmail.com**
 
-Sigueme en [Linkedin] https://www.linkedin.com/in/sebastian-barcia/
-
-
+```
+Puedes encontrarme 🌎:
+- [Instagram] https://www.instagram.com/sebastian_barcia/
+- [Facebook] https://www.facebook.com/SebastianBarcia
+- [Linkedin] https://www.linkedin.com/in/sebastian-barcia/ 
