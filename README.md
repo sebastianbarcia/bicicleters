@@ -1,3 +1,8 @@
+
+<div align="center">
+  <img width="300" src="https://user-images.githubusercontent.com/93622276/193772551-2d30591e-9852-4e66-ae92-5bcb00576e39.svg">
+</div>
+
 # Acerca del proyecto
 🌐 E-commerce del sitio bicicleters <br>
 Bicicleters es un sitio especializado en venta de bicicletas, accesorios y equipamiento para la practica del ciclismo. <br>
